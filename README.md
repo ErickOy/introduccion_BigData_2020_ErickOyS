@@ -1,14 +1,16 @@
-### Comandos básicos de git
+### Comandos básicos de docker
 
  
 
-Git es un controlador de versiones que nos permite ir guardando los cambios de nuestro proyecto
+Docker es una herramienta de virtualización para levandar maquinas independientes con SO ligero y en poco tiempo.
 
  
 
 ```sh
-$ git clone <url>
-$ git add .
-$ git commit -m "un mensaje nuevo"
-$ git push origin master
+$ docker run -i t <SO>
+$ docker run -it -p <p.salida/p.interno><servicio>
+$ docker ps
+$ docker exec -it <id-container> cat <dirección del txt>
+$ docker rm -f <id-container>
+
 ```
